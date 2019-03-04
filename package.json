@@ -6,7 +6,7 @@
   "scripts": {
     "build:webpack": "NODE_ENV=production webpack --config webpack.config.prod.js",
     "build": "npm run clean && npm run build:webpack",
-    "test": "NODE_ENV=production mocha './tests/**/*.spec.js' --compilers js:babel-core/register",
+    "test": "NODE_ENV=production mocha './tests/**/*.spec.js' --compilers js:@babel/register",
     "clean": "rimraf dist",
     "start": "node devServer.js",
     "tunnel": "browser-sync start --proxy localhost:7770 --tunnel haqadosch"
@@ -46,7 +46,6 @@
     "style-loader": "^0.23.1",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2",
-    "webpack": "^4.29.6",
     "webpack-dev-middleware": "^3.6.0",
     "webpack-hot-middleware": "^2.24.3"
   },
@@ -59,6 +58,8 @@
     "expect": "^24.1.0",
     "expect-jsx": "^5.0.0",
     "mocha": "^6.0.2",
-    "react-addons-test-utils": "^15.6.2"
+    "react-addons-test-utils": "^15.6.2",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
   }
 }
