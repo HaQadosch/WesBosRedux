@@ -1,2 +1,0 @@
-# WesBosRedux
-http://LearnRedux.com
