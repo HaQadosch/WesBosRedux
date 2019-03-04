@@ -1,0 +1,19 @@
+{
+  "name": "wesbosredux",
+  "version": "1.0.0",
+  "description": "http://LearnRedux.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape index.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HaQadosch/WesBosRedux.git"
+  },
+  "author": "HaQadosch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HaQadosch/WesBosRedux/issues"
+  },
+  "homepage": "https://github.com/HaQadosch/WesBosRedux#readme"
+}
